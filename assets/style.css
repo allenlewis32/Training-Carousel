@@ -5,3 +5,9 @@
     transform: translate(-50%, -50%);
     font-size: x-large;
 }
+
+.colorpicker {
+    border-color: black;
+    border-width: 1px;
+    padding: 0px;
+}
