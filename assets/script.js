@@ -9,4 +9,5 @@ function changeColor(colorPicker) {
     let textColor = brightness > 125?'black':'white';
     document.body.style.color = textColor;
     colorPicker.style.borderColor = textColor;
+    document.querySelectorAll('button').forEach((button) => button.style.borderColor = textColor);
 }

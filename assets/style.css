@@ -1,13 +1,52 @@
-#main {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: x-large;
+.main {
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.colorpicker {
+.colorPicker {
     border-color: black;
     border-width: 1px;
     padding: 0px;
+    margin: 5px;
+
+}
+
+html, body {
+    height: 100vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: x-large;
+}
+
+#pickColor {
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    font-size: larger;
+    background-color: inherit;
+    border-color: black;
+    color: inherit;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#leftButton {
+    box-shadow: 1px 2px 5px black;
+}
+
+#rightButton {
+    box-shadow: -1px 2px 5px black;
 }

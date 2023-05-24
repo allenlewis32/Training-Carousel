@@ -5,9 +5,15 @@
         <link rel="stylesheet" href="assets/style.css">
     </head>
     <body>
-        <div id="main">
-            Pick a color: <input type="color" class="colorpicker" oninput="changeColor(this)" value="#ffffff"><br>
-            <div id="selectedColor"></div>
+        <div class="main row">
+            <button id="leftButton">&lt;</button>
+            <div id="col">
+                <div id="pickColor row">
+                    Pick a color: <input type="color" class="colorPicker" oninput="changeColor(this)" value="#ffffff">
+                </div>
+                <div id="selectedColor"></div>
+            </div>
+            <button id="rightButton">&gt;</button>
         </div>
         <script src="assets/script.js"></script>
     </body>
