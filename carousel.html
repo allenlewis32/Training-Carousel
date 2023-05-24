@@ -6,14 +6,14 @@
     </head>
     <body>
         <div class="main row">
-            <button id="leftButton">&lt;</button>
+            <button id="prevButton" onclick="previousPage()">&lt;</button>
             <div id="col">
                 <div id="pickColor row">
-                    Pick a color: <input type="color" class="colorPicker" oninput="changeColor(this)" value="#ffffff">
+                    Pick a color: <input type="color" class="colorPicker" id="colorPicker" oninput="changeColor(this)" value="#ffffff">
                 </div>
                 <div id="selectedColor"></div>
             </div>
-            <button id="rightButton">&gt;</button>
+            <button id="nextButton" onclick="nextPage()">&gt;</button>
         </div>
         <script src="assets/script.js"></script>
     </body>

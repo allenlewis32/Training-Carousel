@@ -35,18 +35,16 @@ html, body {
 
 button {
     font-size: larger;
-    background-color: inherit;
-    border-color: black;
-    color: inherit;
     border-radius: 50%;
     width: 50px;
     height: 50px;
+    border: none;
 }
 
-#leftButton {
-    box-shadow: 1px 2px 5px black;
+#prevButton:active {
+    transform: translate(1px, 2px);
 }
 
-#rightButton {
-    box-shadow: -1px 2px 5px black;
+#nextButton:active {
+    transform: translate(-1px, 2px);
 }
