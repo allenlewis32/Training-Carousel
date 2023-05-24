@@ -3,7 +3,7 @@ let pageColor = [];
 let totalPages = 5;
 
 for(let i = 0; i < totalPages; i++) {
-    pageColor[i] = ['white', 'black'];
+    pageColor[i] = ['#ffffff', '#000000'];
 }
 
 updateColor();
