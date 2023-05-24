@@ -31,13 +31,7 @@ function updateColor() {
     document.body.style.color = textColor;
     colorPicker.style.borderColor = textColor;
 
-    colorPicker.value = backgroundColor;
-    
-    let leftButton = document.querySelector('#prevButton');
-    leftButton.style.boxShadow = `1px 2px 5px ${textColor}`;
-
-    let rightButton = document.querySelector('#nextButton');
-    rightButton.style.boxShadow = `-1px 2px 5px ${textColor}`;
+    colorPicker.value = backgroundColor;    
 }
 
 function nextPage() {

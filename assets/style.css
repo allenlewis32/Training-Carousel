@@ -41,6 +41,14 @@ button {
     border: none;
 }
 
+#prevButton {
+    box-shadow: 1px 2px 5px black;
+}
+
+#nextButton {
+    box-shadow: 1px 2px 5px black;
+}
+
 #prevButton:active {
     transform: translate(1px, 2px);
 }
